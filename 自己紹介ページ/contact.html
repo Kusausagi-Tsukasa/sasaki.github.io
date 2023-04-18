@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>佐々木つかさ Official Website</title>
+    <link rel="icon" type="image/png" href="icon2.PNG">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+JP">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+    <header>
+        <div class="header-left">
+          <img src="icon2.PNG" alt="ヘッダー画像">
+        </div>
+        <div class="header-right">
+          <h1>佐々木つかさの解剖</h1>
+        </div>
+    </header>      
+    <nav>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="#">プロフィール</a></li>
+            <li><a href="allMovie.html">動画一覧</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>お問い合わせ</h2>
+        <form method="post" action="sendmail.php">
+            <label for="name">お名前：</label>
+            <input type="text" id="name" name="name" required><br>
+          
+            <label for="email">メールアドレス：</label>
+            <input type="email" id="email" name="email" required><br>
+          
+            <label for="message">お問い合わせ内容：</label>
+            <textarea id="message" name="message" required></textarea><br>
+          
+            <input type="submit" value="送信">
+          </form>
+          
+        <div class="spacer"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 佐々木つかさ All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
