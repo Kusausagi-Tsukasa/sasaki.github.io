@@ -72,13 +72,13 @@ h1 {
 
 /* Header styles */
 header {
-  display: flex;
+  display: right;
   align-items: center;
   background-color: #7d509f;
 }
 
 .header-left img {
-  max-width: 10%;
+  max-width: 15%;
   height: auto;
 }
 
