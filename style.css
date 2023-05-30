@@ -85,6 +85,7 @@ header {
 .header-right h1 {
   font-size: 2.5rem;
   color: #dcdcdc;
+  white-space: nowrap;
 }
 
 /* Navigation styles */
