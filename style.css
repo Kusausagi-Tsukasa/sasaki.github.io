@@ -137,13 +137,13 @@ nav li a:hover {
 }
 
 /* Movie section styles */
-.movie-header {
+.page-header {
   background-color: #dd99ff;
   padding: 1rem;
   text-align: center;
 }
 
-.movie-header h2 {
+.page-header h2 {
   font-size: 2rem;
   color: #fff;
 }
