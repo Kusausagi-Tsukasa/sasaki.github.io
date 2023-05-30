@@ -190,6 +190,7 @@ footer {
   text-decoration: none;
   opacity: 0;
   transition: opacity 0.3s;
+  z-index: 9999; /* 最前面に表示 */
 }
 
 .scroll-to-top.show {
