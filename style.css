@@ -176,3 +176,27 @@ footer {
   background-color: #550099;
   color: white;
   padding: 
+      
+ /* Scroll button */
+      
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #9a8dff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+}
+
+.scroll-to-top:hover {
+  background-color: #7d509f;
+}
+
