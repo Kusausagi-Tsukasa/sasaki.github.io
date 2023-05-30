@@ -72,7 +72,7 @@ h1 {
 
 /* Header styles */
 header {
-  display: right;
+  display: flex;
   align-items: center;
   background-color: #7d509f;
 }
